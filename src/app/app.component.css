@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  
+  /* Home section styles */
+  section {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+  }
+  
