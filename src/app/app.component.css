@@ -1,40 +1,53 @@
 /* styles.css */
 
-/* Header styles */
-header {
-    background-color: #333;
+/* Reset default margins and paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
+  
+  /* Header styles */
+  header {
+    background-color: #0b0a0a;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
   nav {
-    display: flex;
-    gap: 20px;
+    margin-top: 10px;
   }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
   nav a {
     color: #fff;
     text-decoration: none;
-    margin-right: 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
   }
   
-  nav a.active {
-    font-weight: bold;
-  }
-  
-  /* Home section styles */
-  section {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    color: #333;
-  }
-  
-  p {
-    font-size: 18px;
-    color: #666;
+  nav a:hover {
+    color: #ddd;
   }
   
